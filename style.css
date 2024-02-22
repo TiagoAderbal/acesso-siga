@@ -1,0 +1,50 @@
+.principal {
+    width: 100vw;
+    height: 100vh;
+    background-color: #CDD4DC;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+}
+
+.area-texto {
+    padding: 8% 20% 10% 20%;
+}
+
+.texto {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #201E1E;
+}
+
+.area-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link {
+    color: #033D60;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: #fff;
+    padding: 18px;
+    border-radius: 35px;
+}
+
+.link:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #033D60;
+    padding: 18px;
+    border-radius: 35px;
+}
+
+@media (max-width: 750px) {
+    
+    .area-links {
+        display: grid;
+    }
+
+    .link {
+        margin-top: 1.5rem;
+    }
+}
