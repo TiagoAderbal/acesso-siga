@@ -28,6 +28,7 @@
     background-color: #fff;
     padding: 18px;
     border-radius: 35px;
+    margin-bottom: 1rem;
 }
 
 .link:hover {
@@ -49,7 +50,7 @@
     }
 
     .texto {
-        padding-top: 4rem;
+        padding-top: 2.5rem;
         font-size: 2rem;
     }
 }
